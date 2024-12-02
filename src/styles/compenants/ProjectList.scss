@@ -1,0 +1,124 @@
+.filter {
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    margin-top: 80px;
+
+    li {
+      border: 2px solid;
+      border-radius: 10px;
+      padding: 5px;
+      box-sizing: border-box;
+      font-size: 24px;
+    }
+  }
+}
+
+.projets {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 65px;
+  margin-top: 30px;
+
+  .projet {
+    width: 1400px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    gap: 5px;
+    background-color: #2b2b3d; /* Gris plus clair */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+
+    .image {
+      width: 130%;
+      height: 100%;
+      padding: 36px;
+      box-sizing: border-box;
+
+      img {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 60px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          border: 1px solid #8a2be2; /* Violet vif */
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    .texte {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 25px;
+      width: 100%;
+      height: 100%;
+
+      .top {
+        padding: 10px;
+        img {
+          width: 160px;
+          padding-right: 30px;
+        }
+      }
+
+      .bottom {
+        margin: 10px;
+
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          color: #e4e4e4; /* Texte clair */
+        }
+
+        hr {
+          margin-right: 15%;
+          margin-left: 10%;
+          border-color: #3c3c4d; /* Ligne discrète */
+        }
+
+        .langages {
+          display: flex;
+          justify-content: flex-end;
+          margin-right: 15px;
+          margin-top: 5px;
+
+          span {
+            display: inline-block;
+            font-size: 12px;
+            padding: 5px 10px;
+            margin: 5px;
+            background-color: #8a2be2; /* Violet vif */
+            color: #ffffff; /* Blanc */
+            border-radius: 20px;
+          }
+        }
+
+        .icon {
+          display: flex;
+          justify-content: flex-end;
+          gap: 15px;
+          margin-right: 20px;
+          margin-top: 10px;
+
+          a {
+            color: #e4e4e4; /* Texte clair */
+            transition: color 0.3s ease;
+
+            &:hover {
+              color: #8a2be2; /* Violet vif */
+            }
+          }
+        }
+      }
+    }
+  }
+}

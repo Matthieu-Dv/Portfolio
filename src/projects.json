@@ -1,0 +1,34 @@
+[
+    {
+        "img": "/assets/img/image_projet_kasa.png",
+        "description": "Kasa est une application web de location immobilière créée avec React, conçue pour être moderne et réactive. Le site propose une navigation fluide et une gestion optimisée des annonces. Chaque utilisateur peut ainsi naviguer et trouver la location qui lui plaît de façon simple et claire. Le site est codé avec React, utilisant Vite et TypeScript, il propose donc une rapidité et une fluidité très forte.",
+        "langage": ["HTML/CSS", "SASS", "javaScript", "TypeScript", "React"],
+        "logo": "/assets/img/logo_kasa.png",
+        "github": "https://github.com/Smartpro94/kasa",
+        "site": ""
+    },
+    {
+        "img": "/assets/img/image_projet_kasa.png",
+        "description": "Développement d'une plateforme de location d'appartements entre particuliers, avec une navigation fluide et une gestion optimisée des annonces.",
+        "langage": ["HTML/CSS", "SASS", "javaScript", "TypeScript", "React"],
+        "logo": "",
+        "github": "",
+        "site": ""
+    },
+    {
+        "img": "/assets/img/image_projet_kasa.png",
+        "description": "Développement d'une plateforme de location d'appartements entre particuliers, avec une navigation fluide et une gestion optimisée des annonces.",
+        "langage": ["HTML/CSS", "SASS", "javaScript", "TypeScript", "React"],
+        "logo": "",
+        "github": "",
+        "site": ""
+    },
+    {
+        "img": "/assets/img/image_projet_kasa.png",
+        "description": "Développement d'une plateforme de location d'appartements entre particuliers, avec une navigation fluide et une gestion optimisée des annonces.",
+        "langage": ["HTML/CSS", "SASS", "javaScript", "TypeScript", "React"],
+        "logo": "",
+        "github": "",
+        "site": ""
+    }
+]
