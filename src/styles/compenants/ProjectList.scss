@@ -8,11 +8,43 @@
     margin-top: 80px;
 
     li {
-      border: 2px solid;
+      border: 2px solid #d1d1e9;
       border-radius: 10px;
       padding: 5px;
       box-sizing: border-box;
       font-size: 24px;
+      color: #d1d1e9;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease,
+        transform 0.3s ease; /* Ajout de l'animation */
+
+      &:hover {
+        color: #ffffff; /* Texte blanc au survol */
+        transform: scale(1.1); /* Légère mise en avant au survol */
+      }
+
+      &:nth-child(1):hover {
+        background-color: #72727e;
+      }
+      &:nth-child(2):hover {
+        background-color: #5e81ac;
+      }
+      &:nth-child(3):hover {
+        background-color: #68b984;
+      }
+
+      &.click:nth-child(1) {
+        background-color: #72727e;
+        color: #ffffff;
+      }
+      &.click:nth-child(2) {
+        background-color: #5e81ac;
+        color: #ffffff;
+      }
+      &.click:nth-child(3) {
+        background-color: #68b984;
+        color: #ffffff;
+      }
     }
   }
 }
@@ -74,9 +106,8 @@
         margin: 10px;
 
         p {
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 400;
-          color: #e4e4e4; /* Texte clair */
         }
 
         hr {
@@ -88,6 +119,7 @@
         .langages {
           display: flex;
           justify-content: flex-end;
+          flex-wrap: wrap;
           margin-right: 15px;
           margin-top: 5px;
 

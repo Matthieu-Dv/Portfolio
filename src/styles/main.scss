@@ -1,5 +1,5 @@
 @import './compenants/navigation.scss';
-@import './compenants/ProjectList.scss';
+@import './compenants/projectList.scss';
 @import './compenants/introPortfolio.scss';
 
 body {
@@ -19,7 +19,9 @@ main {
 a {
   text-decoration: none;
 }
-
+p {
+  color: #dcdcdc;
+}
 h1,
 h2,
 h3,
