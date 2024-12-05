@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "img": "/assets/img/kasa.png",
         "alt": "Image du site kasa",
         "description": "Kasa est une application web de location immobilière créée avec React, conçue pour être moderne et réactive. Le site propose une navigation fluide et une gestion optimisée des annonces. Chaque utilisateur peut ainsi naviguer et trouver la location qui lui plaît de façon simple et claire. Le site est codé avec React, utilisant Vite et TypeScript, il propose donc une rapidité et une fluidité très forte.",
@@ -11,6 +12,7 @@
         "type": "Front-End"
     },
     {
+        "id": 2,
         "img": "/assets/img/nina_carducci.png",
         "alt": "Image du site nina_carducci",
         "description": "Nina Carducci est un site web vitrine créé pour mettre en valeur les services de photographie professionnelle en Île-de-France. Réalisé avec React, ce projet se distingue par un travail approfondi sur la performance et l’accessibilité, assurant une expérience utilisateur optimale. J'ai mis en œuvre des pratiques avancées de SEO on-page, telles que l’optimisation des balises HTML, l’intégration de Schema.org et des métadonnées enrichies, notamment OpenGraph et Twitter Cards, pour maximiser la visibilité du site sur les moteurs de recherche et les réseaux sociaux. Par ailleurs, le projet respecte les meilleures pratiques en matière d’accessibilité, validées à l'aide de l'outil Wave, garantissant un site inclusif et facile d’accès pour tous les utilisateurs.",
@@ -22,6 +24,7 @@
         "type": "SEO"
     },
     {
+        "id": 3,
         "img": "/assets/img/kasa.png",
         "alt": "Image du site argent-bank",
         "description": "argent-bank",
@@ -33,6 +36,7 @@
         "type": "Front-End"
     },
     {
+        "id": 4,
         "img": "/assets/img/kasa.png",
         "alt": "Image du site actuel portfolio",
         "description": "Portfolio",

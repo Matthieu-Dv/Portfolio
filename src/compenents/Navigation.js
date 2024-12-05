@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <div className="navigation">
+    <header className="navigation">
       <h1>Matthieu Barilone | Porfolio</h1>
       <ul>
         <NavLink
@@ -13,16 +13,10 @@ const Navigation = () => {
           <li>Accueil</li>
         </NavLink>
         <NavLink
-          to="/contact"
+          to="/about"
           className={({ isActive }) => (isActive ? 'active' : '')}
         >
-          <li>Contact</li>
-        </NavLink>
-        <NavLink
-          to="/competences"
-          className={({ isActive }) => (isActive ? 'active' : '')}
-        >
-          <li>Compétences</li>
+          <li>A propos</li>
         </NavLink>
         <NavLink
           to="/projets"
@@ -30,8 +24,14 @@ const Navigation = () => {
         >
           <li>Projets</li>
         </NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) => (isActive ? 'active' : '')}
+        >
+          <li>Contact</li>
+        </NavLink>
       </ul>
-    </div>
+    </header>
   );
 };
 

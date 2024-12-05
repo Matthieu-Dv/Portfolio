@@ -43,8 +43,8 @@ const ProjectsList = () => {
       </section>
       <section>
         <div className="projets">
-          {filteredProjects.map((project, index) => (
-            <div key={index} className="projet">
+          {filteredProjects.map((project) => (
+            <div key={project.id} className="projet">
               <div className="image">
                 <img src={project.img} alt={project.alt || 'Image du projet'} />
               </div>

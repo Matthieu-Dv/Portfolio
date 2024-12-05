@@ -39,3 +39,43 @@
     }
   }
 }
+
+.navigation_about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2a2a3e; /* Fond légèrement différent */
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: auto;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: #c5c5c5; /* Gris clair */
+      font-size: 24px;
+      font-family: 'Roboto', sans-serif;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+
+      &:hover {
+        color: #ffffff; /* Blanc éclatant */
+        border-bottom: 2px solid #5e17eb; /* Accent plus doux */
+        border-radius: 0;
+      }
+
+      &.active_about {
+        font-weight: bold;
+        color: #ffffff;
+        border-bottom: 3px solid #8a2be2; /* Violet vif */
+        border-radius: 0;
+      }
+    }
+  }
+}

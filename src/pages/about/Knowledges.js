@@ -1,11 +1,14 @@
 import React from 'react';
-import Navigation from '../compenents/Navigation';
+import Navigation from '../../compenents/Navigation';
+import AboutNav from '../../compenents/AboutNav';
 
 const Knowledges = () => {
   return (
     <>
       <Navigation />
-      <main>
+      <main className="pages">
+        <AboutNav />
+        <h1>Compétences</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
           ducimus hic dolorum numquam, quasi illum officiis error optio soluta,
