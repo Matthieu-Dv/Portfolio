@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../../compenents/Navigation';
 import AboutNav from '../../compenents/AboutNav';
 
-const Knowledges = () => {
+const Competences = () => {
   return (
     <>
       <Navigation />
@@ -28,4 +28,4 @@ const Knowledges = () => {
   );
 };
 
-export default Knowledges;
+export default Competences;

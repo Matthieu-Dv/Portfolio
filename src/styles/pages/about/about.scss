@@ -1,0 +1,135 @@
+.pages {
+  display: flex;
+  padding: 3% 10%;
+  gap: 50px;
+  box-sizing: border-box;
+  color: #ffffff; /* Texte principal */
+
+  .biographie {
+    width: 100%;
+    height: auto;
+    border: 2px solid #393960;
+    background-color: #2d2d49; /* Fond */
+    border-radius: 15px;
+    padding: 40px; /* Augmenter le padding */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    margin: 0 auto; /* Centrer le bloc */
+
+    &__content {
+      display: flex;
+      gap: 40px; /* Espace augmenté entre l'image et le texte */
+      align-items: flex-start;
+      flex-wrap: wrap; /* Permet un alignement adaptatif sur petits écrans */
+      width: 100%;
+    }
+
+    &__image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+
+      img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #6b4cff; /* Bordure violette */
+        margin-bottom: 7px;
+        margin-top: -7px;
+      }
+
+      h2 {
+        font-size: 1.7rem;
+        color: #ffffff;
+        margin: 0;
+      }
+
+      .age {
+        font-size: 1.1rem;
+        color: #d1d1e0; /* Texte gris clair */
+        margin: 0;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #393960;
+        margin: 0;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .profession {
+        font-size: 1.2rem;
+        color: #5be9b9; /* Couleur mise en valeur */
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .skills {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+
+        span {
+          background-color: #29294a; /* Pastel foncé */
+          color: #ffffff;
+          border-radius: 5px;
+          padding: 5px 10px;
+          font-size: 0.8rem;
+          margin: 0;
+        }
+      }
+
+      .localisation {
+        font-size: 0.9rem;
+        color: #d1d1e0; /* Texte gris clair */
+        margin-top: 5px;
+      }
+
+      .contact-button {
+        display: inline-block;
+        margin-top: 5px;
+        padding: 10px 20px;
+        background-color: #6b4cff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+
+        &:hover {
+          background-color: #5a40d1; /* Teinte plus foncée au survol */
+          transform: scale(1.1);
+          box-shadow: 0 8px 15px rgba(91, 73, 255, 0.4); /* Ombre violette */
+        }
+      }
+    }
+
+    &__text {
+      flex: 1;
+
+      h2 {
+        font-size: 2.2rem; /* Titre plus grand */
+        text-align: center;
+        margin-bottom: 30px;
+        color: #9b84ff; /* Violet */
+        margin-right: 6px;
+      }
+
+      p {
+        font-size: 1.1rem; /* Taille du texte augmentée */
+        line-height: 1.8; /* Plus d'espacement entre les lignes */
+        margin-bottom: 20px;
+        color: #e2e2f0; /* Texte gris clair */
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Halo léger pour le contraste */
+      }
+    }
+  }
+}

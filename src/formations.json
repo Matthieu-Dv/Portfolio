@@ -1,24 +1,24 @@
 [
     {
         "id": 1,
-        "img": "",
-        "formation": "Sciences et Technologies de l'Industrie et du Développement Durable (STI2D)",
-        "date": "2021-2023",
-        "type": "",
-        "description": "description",
-        "niveau": "Bac technologique",
-        "ecole": "Lycée Edouard Branly",
-        "lieu": "Créteil"
-    },
-    {
-        "id": 2,
-        "img": "",
+        "img": "/assets/img/logo_openclassrooms.jpg",
         "formation": "Intégrateur Web",
         "date": "2024",
-        "type": "",
-        "description": "description",
+        "notions": ["HTML/CSS", "SASS", "JavaScript", "React", "Redux", "Méthode Agile", "TypeScript", "Git", "Autonomie", "SEO"],
+        "description": "J'ai suivi une formation d'Intégrateur Web chez OpenClassrooms, un organisme reconnu pour son excellence pédagogique et ses parcours professionnalisants. Ce cursus, certifié RNCP niveau 5, m’a permis de développer des compétences solides en création de sites web modernes, accessibles et optimisés. Grâce à une méthodologie orientée projets, j’ai acquis les outils et les bonnes pratiques nécessaires pour répondre aux attentes du secteur numérique.",
         "niveau": "Niveau 5 (Bac +2)",
         "ecole": "OpenClassrooms",
         "lieu": "Paris (à distance)"
+    },
+    {
+        "id": 2,
+        "img": "/assets/img/logo_STI2D.jpg",
+        "formation": "Bac STI2D - Systèmes d’Information et Numérique (SIN)",
+        "date": "2021-2023",
+        "notions": ["Programmation", "C/C++", "Arduino", "SQL", "Sécurité des systèmes d'information", "Réseaux (TCP/IP, HTTP)", "Travail en équipe", "Résolution de problèmes"],
+        "description": "J’ai obtenu un Bac STI2D (Sciences et Technologies de l’Industrie et du Développement Durable) avec spécialité Systèmes d’Information et Numérique (SIN). Cette formation m’a permis de poser des bases solides en informatique et programmation, tout en explorant des domaines tels que les systèmes connectés et l’analyse de données. J’ai eu l’opportunité de réaliser de nombreux projets en équipe, ce qui m’a appris à collaborer efficacement, partager des idées et résoudre des problématiques techniques de manière collective. Ces expériences ont forgé ma rigueur, ma créativité et mon esprit d’équipe.",
+        "niveau": "Bac technologique",
+        "ecole": "Lycée Edouard Branly",
+        "lieu": "Créteil"
     }
 ]

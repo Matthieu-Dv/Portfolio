@@ -1,7 +1,10 @@
 @import './compenants/navigation.scss';
 @import './compenants/projectList.scss';
 @import './compenants/introPortfolio.scss';
-@import './pages/about.scss';
+@import './pages/about/about.scss';
+@import './pages/about/competences.scss';
+@import './pages/about/experience.scss';
+@import './pages/about/formations.scss';
 
 body {
   font-family: 'Montserrat', sans-serif;

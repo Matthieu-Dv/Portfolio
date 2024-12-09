@@ -1,0 +1,91 @@
+.formations {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .formation {
+    background-color: #2d2d49; /* Fond uniforme et sobre */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    }
+
+    .formation__top {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      .image {
+        flex-shrink: 0;
+
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 2px solid #6b4cff; /* Violet */
+        }
+      }
+
+      .bloc-right {
+        flex: 1;
+
+        h2 {
+          font-size: 1.6rem;
+          color: #ffffff;
+        }
+
+        .information {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 10px;
+
+          span {
+            background-color: #29294a; /* Pastel foncé */
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+          }
+        }
+      }
+    }
+
+    hr {
+      margin: 20px 0;
+      border: none;
+      border-top: 1px solid #393960; /* Délimitation douce */
+    }
+
+    .formation__middle {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #d1d1e0; /* Texte gris clair */
+    }
+
+    .formation__bottom {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      span {
+        background-color: #393960; /* Fond des tags */
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

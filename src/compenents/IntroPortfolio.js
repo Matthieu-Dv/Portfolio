@@ -6,30 +6,18 @@ const IntroPortfolio = () => {
       <div>
         <h2>Mes projets</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-          asperiores accusantium a possimus tempore dignissimos perspiciatis
-          provident nulla natus. Ipsam unde voluptatum nostrum blanditiis
-          expedita officiis modi, pariatur sit, ducimus voluptatem enim, ullam
-          cupiditate cum architecto magni quas ipsa aliquam nisi alias
-          consectetur illo adipisci. Distinctio voluptates rem autem
-          consequuntur dignissimos itaque doloribus ut ipsa temporibus,
-          laudantium porro excepturi dicta architecto ad pariatur inventore
-          aliquam eum labore explicabo deserunt iure fugit ipsam! Quia saepe
-          sunt natus nulla temporibus quasi quod praesentium distinctio, in
-          molestias ipsum necessitatibus illo quam non dignissimos! Architecto
-          blanditiis mollitia, laborum corporis quia eveniet quam suscipit,
-          rerum velit et sunt amet. Dolor harum nesciunt, aut recusandae
-          perferendis inventore. Ducimus iure dolore tempore aspernatur modi
-          voluptatum iusto unde praesentium numquam illo atque consectetur
-          facere esse itaque veniam reiciendis voluptatem, tenetur molestias
-          fuga soluta repellat. Vero consequatur totam ea veritatis laboriosam
-          itaque tenetur eum fugiat aspernatur, quam voluptate maiores adipisci,
-          deleniti sit error possimus aliquid molestiae obcaecati! Consequuntur
-          labore doloribus possimus laborum quaerat veniam atque, obcaecati
-          quasi voluptatibus quis optio, sapiente cumque ab nam! Sint molestias
-          culpa fugit nostrum minima eaque nobis maiores et, quisquam minus
-          eius? Blanditiis magnam accusamus dolorem! Dicta, porro? Libero natus
-          iure doloremque iusto totam?
+          Bienvenue dans la section dédiée à mes réalisations ! Chaque projet
+          présenté ici reflète mon engagement à créer des solutions web
+          performantes, modernes et accessibles. Que ce soit par la conception
+          d'applications interactives ou le développement de sites vitrines, mes
+          projets incarnent une approche rigoureuse, alliant créativité,
+          technique et souci du détail. Vous découvrirez des exemples concrets
+          de mes compétences en React, TypeScript, SEO, et bien d'autres
+          technologies et pratiques. <br /> Chaque réalisation témoigne de mon
+          désir de concevoir des expériences utilisateur à la fois intuitives et
+          inclusives, en répondant aux besoins spécifiques de mes clients.
+          Explorez ces projets pour mieux comprendre ma méthode de travail et ma
+          passion pour le développement web.
         </p>
       </div>
     </section>

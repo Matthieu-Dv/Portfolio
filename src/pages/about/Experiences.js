@@ -8,7 +8,12 @@ const Experience = () => {
       <Navigation />
       <main className="pages">
         <AboutNav />
-        Biographie{' '}
+        <div className="experience">
+          <h2>
+            À la recherche d'un contrat en développement front-end, disponible
+            immédiatement.
+          </h2>
+        </div>
       </main>
     </>
   );

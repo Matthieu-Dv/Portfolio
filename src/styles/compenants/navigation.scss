@@ -40,41 +40,77 @@
   }
 }
 
-.navigation_about {
+.header_page {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #2a2a3e; /* Fond légèrement différent */
+  flex-direction: column;
+  gap: 20px;
 
-  ul {
+  .navigation_about_top {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 30px;
+    padding: 20px;
+    background-color: #1e1e3c; /* Un fond légèrement plus clair que le background principal */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    height: fit-content;
     width: auto;
-    list-style: none;
 
-    a {
-      text-decoration: none;
-      color: #c5c5c5; /* Gris clair */
-      font-size: 24px;
-      font-family: 'Roboto', sans-serif;
-      padding: 10px 20px;
-      border-radius: 8px;
-      transition: background-color 0.3s ease, color 0.3s ease;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      list-style: none;
+      padding: 0;
 
-      &:hover {
-        color: #ffffff; /* Blanc éclatant */
-        border-bottom: 2px solid #5e17eb; /* Accent plus doux */
-        border-radius: 0;
+      a {
+        text-decoration: none;
+        font-size: 22px;
+        color: #ccccff; /* Accent bleu clair */
+        padding: 8px 15px;
+        border-radius: 5px;
+        text-align: center;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: #6b4cff; /* Violet accentué */
+          color: #ffffff; /* Blanc */
+        }
+
+        &.active_about {
+          background-color: #8a2be2; /* Violet plus vif */
+          color: #ffffff;
+          font-weight: bold;
+        }
       }
+    }
+  }
 
-      &.active_about {
-        font-weight: bold;
-        color: #ffffff;
-        border-bottom: 3px solid #8a2be2; /* Violet vif */
-        border-radius: 0;
+  .navigation_about_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: #1e1e3c; /* Un fond légèrement plus clair que le background principal */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    height: auto;
+    width: auto;
+
+    ul {
+      display: flex;
+      gap: 5px;
+      list-style: none;
+      padding: 0;
+
+      a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #ccccff; /* Accent bleu clair */
+        padding: 8px 15px;
+        border-radius: 5px;
+        text-align: center;
+        transition: all 0.3s ease;
       }
     }
   }
