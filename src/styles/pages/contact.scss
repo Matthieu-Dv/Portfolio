@@ -1,0 +1,16 @@
+.intro-contact {
+  max-width: 1300px; /* Largeur alignée avec le formulaire */
+  margin: 20px auto; /* Centrage et espacement */
+  padding: 25px;
+  background-color: #2d2d49; /* Couleur de fond légèrement différente */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Ombre subtile */
+  color: #9b84ff; /* Texte dans un violet cohérent */
+  text-align: center; /* Centrer le texte */
+  font-size: 0.9rem; /* Taille de police agréable à lire */
+  line-height: 1.6; /* Espacement entre les lignes */
+}
+
+.intro-contact h2 {
+  margin: 0;
+}
