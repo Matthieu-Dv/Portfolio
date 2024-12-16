@@ -74,12 +74,12 @@
         transition: all 0.3s ease;
 
         &:hover {
-          background-color: #6b4cff; /* Violet accentué */
+          background-color: #2c2f4a; /* Violet accentué */
           color: #ffffff; /* Blanc */
         }
 
         &.active_about {
-          background-color: #8a2be2; /* Violet plus vif */
+          background-color: #7b6ef6; /* Violet plus vif */
           color: #ffffff;
           font-weight: bold;
         }
@@ -100,18 +100,24 @@
 
     ul {
       display: flex;
+      justify-content: space-evenly;
       gap: 5px;
       list-style: none;
       padding: 0;
 
       a {
         text-decoration: none;
-        font-size: 14px;
+        font-size: 20px;
         color: #ccccff; /* Accent bleu clair */
-        padding: 8px 15px;
+        padding: 8px 10px;
         border-radius: 5px;
         text-align: center;
-        transition: all 0.3s ease;
+        transition: transform 0.3s ease, color 0.3s ease;
+
+        &:hover {
+          transform: scale(1.2); /* Agrandit les icônes au survol */
+          color: #9b84ff; /* Change la couleur au survol */
+        }
       }
     }
   }

@@ -1,5 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
 const AboutNav = () => {
   return (
@@ -35,8 +38,51 @@ const AboutNav = () => {
       </div>
       <div className="navigation_about_bottom">
         <ul>
-          <li>vfo</li>
-          <li>vfo</li>
+          {/* Lien vers GitHub */}
+          <li>
+            <a
+              href="https://github.com/Matthieu-Dv"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              title="Lien vers Github"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </li>
+          {/* Lien vers LinkedIn */}
+          <li>
+            <a
+              href="https://www.linkedin.com/in/matthieu-barilone-00620a2a4/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              title="Lien vers LinkedIn"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </li>
+          {/* Lien pour télécharger le CV */}
+          <li>
+            <a
+              href="/path/to/ton-cv.pdf"
+              download
+              aria-label="Télécharger le CV"
+              title="Lien pour télécharger le CV"
+            >
+              <FontAwesomeIcon icon={faFilePdf} />
+            </a>
+          </li>
+          {/* Lien pour envoyer un email */}
+          <li>
+            <NavLink
+              to="/contact"
+              aria-label="Me contacter par mail"
+              title="Me contacter"
+            >
+              <FontAwesomeIcon icon={faEnvelope} />
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,0 +1,80 @@
+[
+    {
+        "img": "/assets/img/about/compétences/html.png",
+        "alt": "logo html",
+        "title": "HTML",
+        "percentage": "99"
+    },
+    {
+        "img": "/assets/img/about/compétences/css.png",
+        "alt": "logo css",
+        "title": "CSS",
+        "percentage": "99"
+    },
+    {
+        "img": "/assets/img/about/compétences/javascript.png",
+        "alt": "logo javascript",
+        "title": "JavaScript",
+        "percentage": "70"
+    },
+    {
+        "img": "/assets/img/about/compétences/react.png",
+        "alt": "logo react",
+        "title": "React",
+        "percentage": "85"
+    },
+    {
+        "img": "/assets/img/about/compétences/redux.png",
+        "alt": "logo redux",
+        "title": "Redux",
+        "percentage": "70"
+    },
+    {
+        "img": "/assets/img/about/compétences/sass.png",
+        "alt": "logo sass",
+        "title": "Sass",
+        "percentage": "90"
+    },
+    {
+        "img": "/assets/img/about/compétences/typescript.png",
+        "alt": "logo typescript",
+        "title": "TypeScript",
+        "percentage": "80"
+    },
+    {
+        "img": "/assets/img/about/compétences/vscode.png",
+        "alt": "logo vs code",
+        "title": "VS Code",
+        "percentage": "99"
+    },
+    {
+        "img": "/assets/img/about/compétences/windows.png",
+        "alt": "logo windows",
+        "title": "Windows",
+        "percentage": "80"
+    },
+    {
+        "img": "/assets/img/about/compétences/swagger.png",
+        "alt": "logo swagger",
+        "title": "Swagger",
+        "percentage": "55"
+    },
+    {
+        "img": "/assets/img/about/compétences/slack.png",
+        "alt": "logo slack",
+        "title": "Slack",
+        "percentage": "99"
+    },
+    {
+        "img": "/assets/img/about/compétences/github.png",
+        "alt": "logo github",
+        "title": "Github",
+        "percentage": "75"
+    },
+    {
+        "img": "/assets/img/about/compétences/figma.webp",
+        "alt": "logo figma",
+        "title": "Figma",
+        "percentage": "65"
+    }
+]
