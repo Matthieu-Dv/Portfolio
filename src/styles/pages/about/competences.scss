@@ -35,7 +35,7 @@
       justify-content: flex-start;
       gap: 20px;
       width: 160px;
-      height: 210px;
+      height: auto;
       padding: 15px;
       text-align: center;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -82,6 +82,78 @@
         margin-top: 8px; /* Espacement sous la barre */
         letter-spacing: 0.5px; /* Espacement léger pour plus de lisibilité */
       }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .competences {
+    h2 {
+      font-size: 2rem;
+    }
+
+    .competence-intro {
+      font-size: 1rem;
+    }
+
+    .page-competences {
+      .competence {
+        width: 140px;
+
+        img {
+          width: 60px;
+          height: 60px;
+        }
+
+        .title {
+          font-size: 0.9rem;
+        }
+
+        .progress-bar {
+          height: 7px;
+        }
+
+        .percentage {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .competences {
+    .page-competences {
+      .competence {
+        width: 110px;
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+
+        .title {
+          font-size: 0.7rem;
+        }
+
+        .progress-bar {
+          height: 5px;
+        }
+
+        .percentage {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .competences {
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    .competence-intro {
+      font-size: 0.9rem;
     }
   }
 }

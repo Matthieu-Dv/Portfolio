@@ -9,9 +9,24 @@ import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
 
 const ProjectsList = () => {
   const [filter, setFilter] = useState(null);
-  // État pour le filtre
 
-  // Fonction pour filtrer les projets
+  // Fonction pour assigner des couleurs selon le logo
+  const getColor = (logo) => {
+    switch (logo) {
+      case 'Kasa':
+        return '#FF6060';
+      case 'Portfolio':
+        return 'White';
+      case 'Nina Carducci':
+        return 'White';
+      case 'Argent-Bank':
+        return '#5DAA72';
+      default:
+        return 'black'; // Couleur par défaut
+    }
+  };
+
+  // Filtrage des projets
   const filteredProjects = filter
     ? projects.filter((project) => project.type.includes(filter))
     : projects;
@@ -25,8 +40,7 @@ const ProjectsList = () => {
             className={filter === null ? 'click' : ''}
           >
             Tous
-          </li>{' '}
-          {/* Affiche tous les projets */}
+          </li>
           <li
             onClick={() => setFilter('Front-End')}
             className={filter === 'Front-End' ? 'click' : ''}
@@ -51,7 +65,14 @@ const ProjectsList = () => {
               <div className="texte">
                 <div className="top">
                   {project.logo && (
-                    <img src={project.logo} alt={project.logoAlt} />
+                    <h2
+                      style={{
+                        color: getColor(project.logo),
+                        fontSize: '36px',
+                      }}
+                    >
+                      {project.logo}
+                    </h2>
                   )}
                 </div>
                 <div className="bottom">

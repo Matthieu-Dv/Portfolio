@@ -1,41 +1,134 @@
 .navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  padding: 15px 20px;
   background-color: #1e1e2f; /* Fond sombre */
   border-bottom: 2px solid #8a2be2;
 
-  h1 {
-    margin-left: 60px;
-  }
-
-  ul {
+  /* En-tête avec le titre, le bouton hamburger et le menu */
+  .navigation-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: auto;
-    list-style: none;
 
-    a {
-      text-decoration: none;
-      color: #e4e4e4; /* Texte clair pour le contraste */
-      font-size: 18px;
-      font-family: 'Roboto', sans-serif;
-      padding: 10px 20px;
-      border-radius: 8px;
-      transition: background-color 0.3s ease, color 0.3s ease;
+    h1 {
+      font-size: 24px;
+      color: #e4e4e4;
+      margin: 0;
+    }
 
-      &:hover {
-        color: #ffffff; /* Blanc éclatant */
-        border-bottom: 2px solid white;
-        border-radius: 0;
+    .menu-toggle {
+      display: none; /* Caché par défaut */
+      background: none;
+      border: none;
+      cursor: pointer;
+
+      .hamburger {
+        position: relative;
+        width: 25px;
+        height: 3px;
+        background-color: #e4e4e4; /* Barre claire */
+        border-radius: 2px;
+        transition: all 0.3s ease;
+
+        &::before,
+        &::after {
+          content: '';
+          position: absolute;
+          width: 25px;
+          height: 3px;
+          background-color: #e4e4e4;
+          border-radius: 2px;
+          transition: all 0.3s ease;
+        }
+
+        &::before {
+          top: -8px; /* Barre supérieure */
+        }
+
+        &::after {
+          top: 8px; /* Barre inférieure */
+        }
       }
 
-      &.active {
-        font-weight: bold;
-        color: #ffffff;
-        background-color: #8a2be2; /* Accent pour le lien actif */
+      &.open .hamburger {
+        background-color: transparent; /* Barre centrale disparaît */
+
+        &::before {
+          top: 0;
+          transform: rotate(45deg); /* Barre supérieure en diagonale */
+        }
+
+        &::after {
+          top: 0;
+          transform: rotate(-45deg); /* Barre inférieure en diagonale */
+        }
+      }
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li a {
+        text-decoration: none;
+        color: #e4e4e4;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px 20px;
+
+        &:hover {
+          color: #ffffff;
+          border-bottom: 2px solid white;
+        }
+
+        &.active {
+          font-weight: bold;
+          background-color: #8a2be2;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  /* Responsive styles */
+  @media (max-width: 1024px) {
+    .navigation-header {
+      flex-direction: column; /* Empile le contenu */
+      align-items: flex-start;
+
+      .menu-toggle {
+        display: block; /* Affiche le bouton hamburger */
+        align-self: flex-end;
+      }
+
+      ul {
+        display: none; /* Caché par défaut */
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+
+        &.open {
+          display: flex;
+        }
+
+        li a {
+          width: 100%; /* Liens en largeur complète */
+          text-align: left;
+          padding: 10px;
+        }
+      }
+    }
+
+    @media (min-width: 1025px) {
+      .menu-toggle {
+        display: none;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: flex-end;
       }
     }
   }
@@ -107,7 +200,7 @@
 
       a {
         text-decoration: none;
-        font-size: 20px;
+        font-size: 24px;
         color: #ccccff; /* Accent bleu clair */
         padding: 8px 10px;
         border-radius: 5px;
@@ -117,6 +210,55 @@
         &:hover {
           transform: scale(1.2); /* Agrandit les icônes au survol */
           color: #9b84ff; /* Change la couleur au survol */
+        }
+      }
+    }
+  }
+}
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .header_page {
+    .navigation_about_top {
+      flex-direction: row;
+
+      ul {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 100%;
+
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+    .navigation_about_bottom {
+      ul {
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header_page {
+    .navigation_about_top {
+      flex-direction: row;
+
+      ul {
+        flex-direction: row;
+
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+    .navigation_about_bottom {
+      ul {
+        a {
+          font-size: 18px;
         }
       }
     }

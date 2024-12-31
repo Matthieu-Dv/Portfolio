@@ -9,3 +9,13 @@
   background-color: #252539;
   font-size: 1rem;
 }
+@media (max-width: 1024px) {
+  .experience {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 480px) {
+  .experience {
+    font-size: 0.6rem;
+  }
+}

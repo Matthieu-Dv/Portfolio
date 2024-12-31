@@ -1,0 +1,240 @@
+// Variables pour les couleurs et les espacements
+$primary-color: #007bff;
+$secondary-color: #ff5722;
+$text-color: #333;
+$background-color: #f4f4f4;
+$white-color: #ffffff;
+$font-stack: 'Arial, sans-serif';
+
+$spacing-section: 3rem;
+$spacing-element: 1.5rem;
+
+// Reset et styles globaux
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack;
+  line-height: 1.6;
+  background-color: $background-color;
+  color: $text-color;
+  scroll-behavior: smooth;
+}
+
+// Style général de la page
+.home {
+  padding: $spacing-section;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-section;
+
+  .hero {
+    background: linear-gradient(135deg, $primary-color, $secondary-color);
+    color: $white-color;
+    padding: $spacing-section;
+    border-radius: 8px;
+    text-align: center;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: $spacing-element;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: normal;
+      margin-bottom: $spacing-element;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: $spacing-element;
+    }
+  }
+
+  .about {
+    background-color: #2d2d49;
+    padding: $spacing-section;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-right: 10%;
+
+    h2 {
+      color: $primary-color;
+      margin-bottom: $spacing-element;
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: white;
+    }
+  }
+
+  .skills {
+    background-color: #2d2d49;
+    padding: $spacing-section;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-right: 10%;
+
+    h2 {
+      color: $primary-color;
+      margin-bottom: $spacing-element;
+      font-size: 1.5rem;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        &::before {
+          content: '✓ ';
+          color: whitesmoke;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .projects {
+    background-color: #2d2d49;
+    padding: $spacing-section;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-right: 10%;
+
+    h2 {
+      color: $primary-color;
+      margin-bottom: $spacing-element;
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: white;
+    }
+  }
+}
+
+// Navigation styling (exemple basique)
+nav {
+  background-color: $primary-color;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+  a {
+    color: $white-color;
+    text-decoration: none;
+    margin: 0 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .home {
+    padding: 5px;
+    .hero {
+      h1 {
+        font-size: 2.3rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+    .about {
+      p {
+        font-size: 1rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+    .skills {
+      h2 {
+        font-size: 1.2rem;
+      }
+      ul {
+        li {
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .projects {
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .home {
+    .hero {
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 0.7rem;
+      }
+    }
+    .about {
+      p {
+        font-size: 0.8rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+    .skills {
+      h2 {
+        font-size: 1.2rem;
+      }
+      ul {
+        li {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    .projects {
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .skills {
+    ul {
+      li {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

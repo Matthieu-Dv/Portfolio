@@ -133,3 +133,74 @@
     }
   }
 }
+@media (max-width: 1224px) {
+  .pages {
+    .biographie {
+      &__image {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .pages {
+    flex-direction: column;
+
+    .biographie {
+      &__text {
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .pages {
+    .biographie {
+      &__image {
+        img {
+          width: 200px;
+          height: 200px;
+        }
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        .age {
+          font-size: 0.9rem;
+        }
+
+        .profession {
+          font-size: 1rem;
+        }
+
+        .skills {
+          span {
+            font-size: 0.6rem;
+          }
+        }
+
+        .localisation {
+          font-size: 0.7rem;
+        }
+
+        .contact-button {
+          font-size: 0.7rem;
+        }
+      }
+      &__text {
+        flex: 1;
+
+        h2 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

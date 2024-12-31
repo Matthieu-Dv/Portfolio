@@ -95,7 +95,6 @@
       button {
         padding: 12px 20px;
         background-color: #6b4cff;
-        width: 15%;
         margin-top: 5px;
         color: #fff;
         border: none;
@@ -127,6 +126,78 @@
         to {
           opacity: 1;
         }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .form-container h2 {
+      font-size: 1.7rem;
+    }
+
+    .contact-form {
+      .top,
+      .bottom {
+        gap: 10px;
+      }
+
+      textarea {
+        height: 120px;
+      }
+
+      button {
+        width: 20%;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contact-form {
+      .top,
+      .bottom {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .champ {
+        width: 48%;
+      }
+
+      textarea {
+        height: 100px;
+      }
+
+      button {
+        width: 30%;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .form-container h2 {
+      font-size: 1.4rem;
+    }
+
+    .contact-form {
+      gap: 10px;
+
+      .top,
+      .bottom {
+        flex-direction: column;
+      }
+
+      .champ {
+        width: 100%;
+      }
+
+      textarea {
+        height: 90px;
+      }
+
+      button {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 10px;
       }
     }
   }

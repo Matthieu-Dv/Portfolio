@@ -65,7 +65,7 @@ const AboutNav = () => {
           {/* Lien pour télécharger le CV */}
           <li>
             <a
-              href="/path/to/ton-cv.pdf"
+              href="/assets/CV_Matthieu_Barilone.pdf"
               download
               aria-label="Télécharger le CV"
               title="Lien pour télécharger le CV"
