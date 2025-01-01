@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "/assets/img/about/logo_openclassrooms.jpg",
+        "img": "/assets/img/about/logo_openclassrooms.webp",
         "formation": "Intégrateur Web",
         "date": "2024",
         "notions": ["HTML/CSS", "SASS", "JavaScript", "React", "Redux", "Méthode Agile", "TypeScript", "Git", "Autonomie", "SEO"],
@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "img": "/assets/img/about/logo_STI2D.jpg",
+        "img": "/assets/img/about/logo_STI2D.webp",
         "formation": "Bac STI2D - Systèmes d’Information et Numérique (SIN)",
         "date": "2021-2023",
         "notions": ["Programmation", "C/C++", "Arduino", "SQL", "Sécurité des systèmes d'information", "Réseaux (TCP/IP, HTTP)", "Travail en équipe", "Résolution de problèmes"],

@@ -1,72 +1,72 @@
 [
     {
-        "img": "/assets/img/about/compétences/html.png",
+        "img": "/assets/img/about/compétences/html.webp",
         "alt": "logo html",
         "title": "HTML",
         "percentage": "99"
     },
     {
-        "img": "/assets/img/about/compétences/css.png",
+        "img": "/assets/img/about/compétences/css.webp",
         "alt": "logo css",
         "title": "CSS",
         "percentage": "99"
     },
     {
-        "img": "/assets/img/about/compétences/javascript.png",
+        "img": "/assets/img/about/compétences/javascript.webp",
         "alt": "logo javascript",
         "title": "JavaScript",
         "percentage": "70"
     },
     {
-        "img": "/assets/img/about/compétences/react.png",
+        "img": "/assets/img/about/compétences/react.webp",
         "alt": "logo react",
         "title": "React",
         "percentage": "85"
     },
     {
-        "img": "/assets/img/about/compétences/redux.png",
+        "img": "/assets/img/about/compétences/redux.webp",
         "alt": "logo redux",
         "title": "Redux",
         "percentage": "70"
     },
     {
-        "img": "/assets/img/about/compétences/sass.png",
+        "img": "/assets/img/about/compétences/sass.webp",
         "alt": "logo sass",
         "title": "Sass",
         "percentage": "90"
     },
     {
-        "img": "/assets/img/about/compétences/typescript.png",
+        "img": "/assets/img/about/compétences/typescript.webp",
         "alt": "logo typescript",
         "title": "TypeScript",
         "percentage": "80"
     },
     {
-        "img": "/assets/img/about/compétences/vscode.png",
+        "img": "/assets/img/about/compétences/vscode.webp",
         "alt": "logo vs code",
         "title": "VS Code",
         "percentage": "99"
     },
     {
-        "img": "/assets/img/about/compétences/windows.png",
+        "img": "/assets/img/about/compétences/windows.webp",
         "alt": "logo windows",
         "title": "Windows",
         "percentage": "80"
     },
     {
-        "img": "/assets/img/about/compétences/swagger.png",
+        "img": "/assets/img/about/compétences/swagger.webp",
         "alt": "logo swagger",
         "title": "Swagger",
         "percentage": "55"
     },
     {
-        "img": "/assets/img/about/compétences/slack.png",
+        "img": "/assets/img/about/compétences/slack.webp",
         "alt": "logo slack",
         "title": "Slack",
         "percentage": "99"
     },
     {
-        "img": "/assets/img/about/compétences/github.png",
+        "img": "/assets/img/about/compétences/github.webp",
         "alt": "logo github",
         "title": "Github",
         "percentage": "75"

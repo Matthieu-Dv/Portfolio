@@ -145,7 +145,10 @@ nav {
 @media (max-width: 1024px) {
   .home {
     padding: 5px;
+
     .hero {
+      padding: 2rem;
+      margin: 10px;
       h1 {
         font-size: 2.3rem;
       }
@@ -190,6 +193,7 @@ nav {
 @media (max-width: 500px) {
   .home {
     .hero {
+      padding: 1rem;
       h1 {
         font-size: 1.7rem;
       }

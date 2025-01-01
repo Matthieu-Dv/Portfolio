@@ -68,7 +68,6 @@ const ProjectsList = () => {
                     <h2
                       style={{
                         color: getColor(project.logo),
-                        fontSize: '36px',
                       }}
                     >
                       {project.logo}

@@ -2,6 +2,7 @@
   padding: 15px 20px;
   background-color: #1e1e2f; /* Fond sombre */
   border-bottom: 2px solid #8a2be2;
+  margin-bottom: 15px;
 
   /* En-tête avec le titre, le bouton hamburger et le menu */
   .navigation-header {
@@ -13,6 +14,7 @@
       font-size: 24px;
       color: #e4e4e4;
       margin: 0;
+      padding-right: 60px;
     }
 
     .menu-toggle {
@@ -20,48 +22,10 @@
       background: none;
       border: none;
       cursor: pointer;
+    }
 
-      .hamburger {
-        position: relative;
-        width: 25px;
-        height: 3px;
-        background-color: #e4e4e4; /* Barre claire */
-        border-radius: 2px;
-        transition: all 0.3s ease;
-
-        &::before,
-        &::after {
-          content: '';
-          position: absolute;
-          width: 25px;
-          height: 3px;
-          background-color: #e4e4e4;
-          border-radius: 2px;
-          transition: all 0.3s ease;
-        }
-
-        &::before {
-          top: -8px; /* Barre supérieure */
-        }
-
-        &::after {
-          top: 8px; /* Barre inférieure */
-        }
-      }
-
-      &.open .hamburger {
-        background-color: transparent; /* Barre centrale disparaît */
-
-        &::before {
-          top: 0;
-          transform: rotate(45deg); /* Barre supérieure en diagonale */
-        }
-
-        &::after {
-          top: 0;
-          transform: rotate(-45deg); /* Barre inférieure en diagonale */
-        }
-      }
+    .icon {
+      font-size: 18px;
     }
 
     ul {
@@ -94,27 +58,42 @@
   /* Responsive styles */
   @media (max-width: 1024px) {
     .navigation-header {
-      flex-direction: column; /* Empile le contenu */
       align-items: flex-start;
+      flex-direction: column;
+
+      h1 {
+        font-size: 20px;
+      }
 
       .menu-toggle {
         display: block; /* Affiche le bouton hamburger */
         align-self: flex-end;
+        position: absolute;
       }
 
       ul {
-        display: none; /* Caché par défaut */
+        display: none;
         flex-direction: column;
         width: 100%;
-        margin-top: 10px;
+        margin-top: 20px;
+        padding: 0;
 
         &.open {
           display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        li {
+          width: 60%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         li a {
           width: 100%; /* Liens en largeur complète */
-          text-align: left;
+          text-align: center;
           padding: 10px;
         }
       }
