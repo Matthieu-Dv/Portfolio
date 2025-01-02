@@ -13,7 +13,7 @@ const About = () => {
           <div className="biographie__content">
             <div className="biographie__image">
               <img
-                src="/assets/img/about/exemple_photo.jpg"
+                src="/assets/img/about/exemple_photo.webp"
                 alt="Profil de Matthieu Barilone"
               />
               <h2>Matthieu Barilone</h2>
