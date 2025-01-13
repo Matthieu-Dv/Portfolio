@@ -13,6 +13,8 @@ const ProjectsList = () => {
   // Fonction pour assigner des couleurs selon le logo
   const getColor = (logo) => {
     switch (logo) {
+      case 'Crypto-app':
+        return '#04C9B9';
       case 'Kasa':
         return '#FF6060';
       case 'Portfolio':
@@ -21,6 +23,8 @@ const ProjectsList = () => {
         return 'White';
       case 'Argent-Bank':
         return '#5DAA72';
+      case 'Booki':
+        return '#0065FC';
       default:
         return 'black'; // Couleur par défaut
     }
