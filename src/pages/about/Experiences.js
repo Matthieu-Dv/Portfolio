@@ -10,8 +10,8 @@ const Experience = () => {
         <AboutNav />
         <div className="experience">
           <h2>
-            À la recherche d'un contrat en développement front-end, disponible
-            immédiatement.
+            À la recherche d'un contrat d'alternance dans l'environnement
+            Salesforce, disponible immédiatement.
           </h2>
         </div>
       </main>

@@ -1,5 +1,23 @@
 [
     {
+        "img": "/assets/img/about/compétences/salesforce.png",
+        "alt": "logo Salesforce administrateur",
+        "title": "Administrateur Salesforce",
+        "percentage": "45"
+    },
+    {
+        "img": "/assets/img/about/compétences/salesforce.png",
+        "alt": "logo Salesforce développeur",
+        "title": "Développeur Salesforce",
+        "percentage": "15"
+    },
+    {
+        "img": "/assets/img/about/compétences/salesforce.png",
+        "alt": "logo Salesforce consultant",
+        "title": "Consultant Salesforce",
+        "percentage": "15"
+    },
+    {
         "img": "/assets/img/about/compétences/html.webp",
         "alt": "logo html",
         "title": "HTML",

@@ -19,12 +19,11 @@ const About = () => {
               <h2>Matthieu Barilone</h2>
               <span className="age">19 ans</span>
               <hr />
-              <span className="profession">Développeur Front-End</span>
+              <span className="profession">Développeur Salesforce</span>
               <div className="skills">
+                <span>Administration Salesforce</span>
                 <span>React</span>
-                <span>Redux</span>
-                <span>SEO</span>
-                <span>Accessibilité</span>
+                <span>JavaScript</span>
               </div>
               <div className="localisation">Île-de-France / à distance</div>
               <NavLink to="/contact" className="contact-button">
@@ -35,26 +34,32 @@ const About = () => {
             <div className="biographie__text">
               <h2>Biographie</h2>
               <p>
-                Je suis Matthieu Barilone, développeur front-end passionné par
-                la création de sites web fonctionnels, esthétiques et optimisés
-                pour le SEO. Diplômé récemment de la formation d’Intégrateur Web
-                chez OpenClassrooms, j’ai acquis les compétences nécessaires
-                pour transformer des maquettes en sites modernes, accessibles et
-                performants, en utilisant des technologies comme React et Redux.
+                Je suis Matthieu Barilone, passionné par l'environnement
+                Salesforce, et par son développement, avec notamment Apex,
+                Lightning Web Compenants. Récemment diplômé de la formation
+                d’Intégrateur Web chez OpenClassrooms, j’ai acquis les
+                compétences nécessaires pour transformer des maquettes en sites
+                modernes, accessibles et performants, en utilisant des
+                technologies comme React et Redux.
               </p>
               <p>
                 Ce parcours d’une année m’a permis de développer mon sens du
                 détail, de l’organisation et de la curiosité, des qualités
-                essentielles dans ce métier. Aujourd’hui, je suis déterminé à
+                essentielles dans ce métier. Aujourd’hui, je souhaite me
+                spécialiser dans le développement Salesforce, une plateforme
+                extrêmement puissante que j’apprécie particulièrement pour sa
+                flexibilité, ses capacités d’automatisation et son écosystème
+                riche, qui permettent de créer des solutions innovantes et
+                adaptées aux besoins des entreprises. Je suis déterminé à
                 perfectionner mes compétences, à collaborer avec des équipes
                 inspirantes et à m’investir dans des projets qui me permettront
                 de continuer à évoluer.
               </p>
               <p>
-                Mon objectif est d’acquérir de l’expérience concrète tout en
-                garantissant la qualité de chaque projet que je mène. Je
-                m’engage à livrer des solutions rigoureuses, bien conçues et
-                finies dans les règles de l’art.
+                Mon objectif est d’acquérir de l’expérience concrète avec une
+                alternance en Salesforce tout en garantissant la qualité de
+                chaque projet que je mène. Je m’engage à livrer des solutions
+                rigoureuses, bien conçues et finies dans les règles de l’art.
               </p>
             </div>
           </div>

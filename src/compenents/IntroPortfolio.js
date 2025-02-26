@@ -4,7 +4,7 @@ const IntroPortfolio = () => {
   return (
     <section className="intro">
       <div>
-        <h2>Mes projets</h2>
+        <h2>Mes projets Web</h2>
         <p>
           Bienvenue dans la section dédiée à mes réalisations ! Chaque projet
           présenté ici reflète mon engagement à créer des solutions web
